@@ -3,6 +3,8 @@ import Manual
 import Promise
 import StockTransaction
 
+
+
 paths={'configPath': r'C:\Users\abhis\OneDrive\Documents\Abhishek\Stock\config',
        'logPath': r'C:\Users\abhis\OneDrive\Documents\Abhishek\Stock\log',
        'mailPath': r'C:\Users\abhis\OneDrive\Documents\Abhishek\Stock\mail',
