@@ -1,7 +1,7 @@
 import GetStockInfo
 import Manual
 import Promise
-import StockTransaction
+import TransactionLoop
 
 
 
@@ -18,7 +18,8 @@ def main():
         Promise.Promise(paths)
         Manual.Manual(paths)
         configFile = GetStockInfo.GetStockInfo(paths)
-        StockTransaction.StockTransaction(paths,configFile)
+
+        TransactionLoop.TransactionLoop(paths,configFile)
 
         print(configFile)
 

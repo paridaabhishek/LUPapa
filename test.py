@@ -1,10 +1,15 @@
+import os
+import time
+#####################################
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import yfinance as yf
+import yahoo_fin.stock_info as  si
 import datetime as dt
+from pandas.tseries.offsets import BDay
+#######################################
 
-todaysDate = dt.date.today().strftime('%Y-%m-%d')
-print(todaysDate)
-print(dt.date.today().weekday())
+def StockTransaction():
+    print('inside the StockTransaction function Buying and selling in progress ')
 
-if str(dt.date.today().weekday()) in '01234':
-    print('Haha')
-else:
-    print('HoHo')
